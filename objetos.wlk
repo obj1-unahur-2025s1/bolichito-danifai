@@ -109,17 +109,15 @@ object banquito{
 
 object cajita {
   var objeto = arito
-  var peso = 400
 
-  method objecto(){ return objeto}
-  method peso(){ return peso }
+  method objeto(){ return objeto}
   method color(){ return rojo}
   method material(){ return cobre }
 
-  method setObjecto(cosa){
+  method setObjeto(cosa){
     objeto = cosa
   }
-  method setPeso(pesoConObjeto){
-    peso = peso + pesoConObjeto
+  method peso(){
+    return 400 + objeto.peso()
   }
 }
