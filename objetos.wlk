@@ -102,7 +102,7 @@ object arito{
 }
 
 object banquito{
-  var color = naranja
+  method color() { return naranja }
   method peso() { return 1700 }
   method material() { return madera }
 }
